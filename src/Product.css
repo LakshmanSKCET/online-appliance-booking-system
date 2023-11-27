@@ -1,0 +1,114 @@
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.product-container {
+  max-width: 100%;
+  margin: 40px;
+  padding: 20px;
+  background-color: #b2c793;
+  box-shadow: 0 0 10px grey;
+
+
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:center  ;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 20px;
+  background-color:transparent ;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+.appliance-section {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  color: white;
+}
+
+b{
+  font-family: cursive;
+  font-size:5cap;
+}
+
+.appliance-card {
+  border: 1px solid #000000;
+  height: 400px;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display:grid;
+  align-items: center;
+  text-align: center; 
+}
+
+.appliance-card img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.appliance-card h3 {
+  margin: 10px 0;
+  color: white;
+}
+
+.appliance-card p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.appliance-card button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 70px;
+  width:95px;
+  padding: 8px;
+  margin-left: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+

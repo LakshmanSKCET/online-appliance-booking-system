@@ -1,0 +1,45 @@
+
+.lock img{
+  height: 40px;
+  padding-top: 150px;
+}
+.lock form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  
+}
+
+.lock input{
+  margin-top: 25px;
+  font-size: 18px;
+  height: 40px;
+  border: none;
+  border-bottom: 3px solid;
+
+;
+}
+.rem{
+  display:flex;
+  align-items: center;
+}
+.rem label{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size:25px;
+}
+.rem input{
+  width:20px;
+}
+
+
+.lock button{
+  margin: 20px;
+  width:250px;
+  height: 40px;
+}
+.lock{
+  box-shadow: 5px 5px 15px black;
+  height: 80vh;
+  width: 800px;
+}
